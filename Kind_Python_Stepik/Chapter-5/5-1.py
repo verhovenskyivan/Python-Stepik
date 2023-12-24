@@ -48,3 +48,17 @@ while count <= n:
     a, b = b, a + b
     count += 1
 #------------------------------
+
+n = int(input())
+sum = 1000
+y = 1
+while y <= n:
+    y+= 1
+    sum += sum*0.05
+print(round(sum, 2))
+#------------------------------
+n, m = map(int,input().split())
+while n < m and n % 2 == 0:
+    print(n+1, end=' ')
+    n+=2
+#------------------------------
